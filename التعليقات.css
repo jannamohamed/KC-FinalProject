@@ -1,0 +1,85 @@
+*{
+    font-family: "Amiri", serif;
+    text-transform: uppercase;
+}
+
+body{
+    background-color: #eccaff ;
+    height: 100vh;
+    margin: 0;
+}
+
+ #تعليقي{
+    background-color: #b5838d ;
+    width: 80%;
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+    border-top: 15px solid #420c1b;
+}
+
+h1{
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #420c1b ;
+}
+
+form{
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+}
+
+.field{
+    margin-bottom: 25px;
+    width: 100%;
+    display: grid;
+    position: relative;
+}
+
+label{
+    color: #420c1b;
+    background-color: #a18388;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    width: 700px;
+    padding: 0;
+    font-weight: bolder;
+    position: absolute;
+}
+
+.input{
+    height: 50px;
+    outline: none;
+    width: 700px;
+    padding-left: 40%;
+    box-sizing: border-box;
+}
+
+.field:hover label{
+    width: 30%;
+    background-color:#8b3849 ;
+    color: #420c1b;
+    transition: all 0.5s ease-in-out;
+}
+
+#janna{
+    height: 50px;
+    width: 150px;
+    margin-top: 22px;
+    border-radius: 2px;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    color: #dba8ac;
+}
+
+#janna:hover{
+    background-color: #8b3849 ;
+    color: #a18388;
+    transition: 0.3s ease-in-out;
+}
+
+
